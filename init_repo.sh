@@ -46,3 +46,6 @@ mkdir -p tests
 touch tests/{test_tax_engine.py,test_risk.py}
 
 echo "✅ Repository structure created."
+chmod +x init_repo.sh
+./init_repo.sh
+
